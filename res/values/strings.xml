@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trajetorias Marítmas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Nome activitys -->
+    <string name="title_activity_nova_coleta">Nova Coleta</string>
+    <string name="title_activity_configuracoes">Configurações</string>
+    <string name="title_activity_itens_action_bar">ItensActionBar</string>
+
+    <!-- Itens action-bar / menu overflow -->
+    <string name="action_coleta">Nova Coleta</string>
+    <string name="action_configuracoes">Configurações</string>
+    <string name="action_visualizar">Visualizar</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="action_sair">Sair</string>
+    <string name="title_activity_visualizar">Visualizar</string>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="title_activity_sair">Sair</string>
+    
+    <!-- Sobre -->
+    <string name="title_sobre">Sobre a Aplicação</string>
+    <string name="txt_desenvolvido_por">Desenvolvido por:</string>
+    <string name="txt_equipe_tec">
+        Equipe Técnica: Eduardo Silva |Jean Hoderbaum| Marilia Ribeiro| Vanessa Rolim
+    	</string>
+    <string name="txt_nome_equipe">
+        Eduardo Silva
+    	Jean Hoderbaum
+    	Marilia R. da Silva
+    	Vanessa Rolim					
+    </string>
+    <string name="txt_endereco">
+        IFC Câmpus Araquari, Rod. BR 280 - km 27 - Cx. Postal 21 - CEP 89245-000 - Araquari - SC
+    </string>
+    <string name="txt_contato">
+        Fone: (47) 3803-7200 - Fax (47) 3803-7201
+    </string>
+    
+
+</resources>

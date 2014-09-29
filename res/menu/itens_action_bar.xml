@@ -1,0 +1,45 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.trajetoriasmaritmas.ItensActionBar" >
+
+    <!-- Itens action-bar do menu overflow -->
+   
+   
+    <item 
+        android:id="@+id/action_coleta"
+        android:title="@string/action_coleta"   
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/ic_nova_coleta"
+       />
+    
+    <item
+        android:id="@+id/action_configuracoes"
+        android:title="@string/action_configuracoes"
+        android:showAsAction="never"
+        android:actionViewClass="android.suport.v7.widget.SearchView"
+        />
+    
+<!--     <item
+        android:id="@+id/action_visualizar"
+        android:title="@string/action_visualizar"
+        android:showAsAction="never"
+        android:actionViewClass="android.suport.v7.widget.SearchView"
+     	/> -->
+    
+    <item 
+        android:id="@+id/action_sobre"
+        android:title="@string/action_sobre"
+        android:showAsAction="never"
+        android:actionViewClass="android.suport.v7.widget.SearchView"
+        />
+            
+    <item
+        android:id="@+id/action_sair"
+        android:title="@string/action_sair"
+        android:showAsAction="never"
+        android:actionViewClass="android.suport.v7.widget.SearchView"
+     	/>
+    
+    
+
+</menu>

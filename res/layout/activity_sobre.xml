@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.example.trajetoriasmaritmas.Sobre$PlaceholderFragment" >
+
+     <TextView
+         android:id="@+id/txt_endereco"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/txt_contato"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="22dp"
+         android:text="@string/txt_endereco"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+     <TextView
+         android:id="@+id/txt_contato"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="49dp"
+         android:text="@string/txt_contato"
+         android:textAppearance="?android:attr/textAppearanceSmall" />
+
+     <ImageView
+         android:id="@+id/img_ifc"
+         android:layout_width="300dp"
+         android:layout_height="200dp"
+         android:layout_above="@+id/txt_endereco"
+         android:layout_alignLeft="@+id/txt_contato"
+         android:layout_marginBottom="120dp"
+         android:src="@drawable/logoifc" />
+
+     <TextView
+         android:id="@+id/txt_desenvolvido_por"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/img_fabrica"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="61dp"
+         android:text="@string/txt_desenvolvido_por"
+         android:textAppearance="?android:attr/textAppearanceMedium" />
+
+     <ImageView
+         android:id="@+id/img_fabrica"
+         android:layout_width="300dp"
+         android:layout_height="200dp"
+         android:layout_above="@+id/img_ifc"
+         android:layout_alignLeft="@+id/img_ifc"
+         android:src="@drawable/fabrica" />
+
+     <TextView
+         android:id="@+id/title_sobre"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/txt_desenvolvido_por"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="60dp"
+         android:text="@string/title_sobre"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textColor="#1C1C1C"
+         android:textSize="35dp"
+         android:textStyle="bold" />
+
+     <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/txt_endereco"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="100dp"
+         android:src="@drawable/btn_normal_c" />
+    
+</RelativeLayout>

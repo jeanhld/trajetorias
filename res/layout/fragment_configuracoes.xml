@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EEE9E9"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true" >
+
+    <TextView
+        android:id="@+id/lbConfig"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="Configurações"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbEmbConf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbConfig"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="Embarcação:"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/confEmb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbEmbConf"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/lbServ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confEmb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Serviço:"
+        android:textSize="35dp" />
+
+    <EditText
+        android:id="@+id/confServ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/confEmb"
+        android:layout_below="@+id/lbServ"
+        android:layout_marginTop="21dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textSize="28dp" />
+
+    <!-- <ImageView
+        android:id="@+id/rectgps"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/confServ"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/rectangle" />
+
+    <ImageView
+        android:id="@+id/rectgps"
+        android:layout_width="500dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/rectgps"
+        android:layout_below="@+id/lbEmbConf"
+        android:src="@drawable/rectangle" /> -->
+
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confServ"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/btn_selector_c"
+        android:text="Salvar"
+        android:textSize="35dp" />
+
+</RelativeLayout>
